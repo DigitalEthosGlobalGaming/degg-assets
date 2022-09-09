@@ -1,0 +1,127 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "darksteel.vmat"
+								to = "materials/base/darksteel.vmat"
+							},
+							{
+								from = "darkwood.vmat"
+								to = "materials/base/darkwood.vmat"
+							},
+							{
+								from = "lightsteel.vmat"
+								to = "materials/base/lightsteel.vmat"
+							},
+							{
+								from = "steel.vmat"
+								to = "materials/base/steel.vmat"
+							},
+							{
+								from = "lightwood.vmat"
+								to = "materials/base/lightwood.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "wood"
+						collision_tags = "solid"
+						origin = [ 0.041154, -0.188091, -1.47458 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 1.534857, 1.470148, 6.161279 ]
+					},
+					{
+						_class = "PhysicsShapeCylinder"
+						parent_bone = ""
+						surface_prop = "metal.weapon"
+						collision_tags = "solid"
+						radius = 0.77607
+						point0 = [ 0.0, 2.153804, 2.0 ]
+						point1 = [ 0.0, -2.059369, 2.0 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "metal.weapon"
+						collision_tags = "solid"
+						origin = [ 0.0, 0.34368, 8.84101 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 0.3, 3.31264, 13.142294 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "metal.weapon"
+						collision_tags = "solid"
+						origin = [ 0.0, -0.298687, 15.504974 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 0.3, 1.708154, 1.790152 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/fantasy/items/Dagger.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.15
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "vr_handle"
+						parent_bone = ""
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}
