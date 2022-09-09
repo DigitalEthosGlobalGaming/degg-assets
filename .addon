@@ -1,0 +1,35 @@
+{
+  "Title": "DeggAssets",
+  "Type": "game",
+  "Org": "degg",
+  "Ident": "degg",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": [
+    "/models/*",
+    "/materials/*"
+  ],
+  "HasCode": false,
+  "CodePath": "",
+  "RootNamespace": null,
+  "Metadata": {
+    "MaxPlayers": 41,
+    "MinPlayers": 1,
+    "GameNetworkType": "Multiplayer",
+    "MapSelect": "Unrestricted",
+    "MapList": [
+      "facepunch.flatgrass"
+    ],
+    "RankType": "None",
+    "PerMapRanking": false,
+    "LeaderboardType": "None",
+    "ProjectTemplate": null,
+    "GameCategory": "None",
+    "Compiler": {
+      "RootNamespace": "Sandbox",
+      "DefineConstants": "",
+      "NoWarn": "1701;1702;1591;"
+    }
+  }
+}
