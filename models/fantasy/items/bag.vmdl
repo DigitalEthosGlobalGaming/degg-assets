@@ -15,15 +15,15 @@
 						[
 							{
 								from = "brown.vmat"
-								to = "materials/base/brown.vmat"
+								to = "deggassets/materials/base/brown.vmat"
 							},
 							{
 								from = "gold.vmat"
-								to = "materials/base/gold.vmat"
+								to = "deggassets/materials/base/gold.vmat"
 							},
 							{
 								from = "darkbrown.vmat"
-								to = "materials/base/darkbrown.vmat"
+								to = "deggassets/materials/base/darkbrown.vmat"
 							},
 						]
 						use_global_default = false
@@ -37,7 +37,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/fantasy/items/bag.fbx"
+						filename = "deggassets/models/fantasy/items/bag.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0

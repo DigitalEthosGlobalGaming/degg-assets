@@ -1,29 +1,29 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
 {
-	rootNode = 
+	rootNode =
 	{
 		_class = "RootNode"
-		children = 
+		children =
 		[
 			{
 				_class = "MaterialGroupList"
-				children = 
+				children =
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						remaps = 
+						remaps =
 						[
 							{
 								from = "beige.vmat"
-								to = "materials/base/beige.vmat"
+								to = "deggassets/materials/base/beige.vmat"
 							},
 							{
 								from = "darkred.vmat"
-								to = "materials/base/darkred.vmat"
+								to = "deggassets/materials/base/darkred.vmat"
 							},
 							{
 								from = "golden.vmat"
-								to = "materials/base/gold.vmat"
+								to = "deggassets/materials/base/gold.vmat"
 							},
 						]
 						use_global_default = false
@@ -33,11 +33,11 @@
 			},
 			{
 				_class = "RenderMeshList"
-				children = 
+				children =
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/fantasy/items/book2_closed.fbx"
+						filename = "deggassets/models/fantasy/items/book2_closed.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -45,10 +45,10 @@
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
 						parent_bone = ""
-						import_filter = 
+						import_filter =
 						{
 							exclude_by_default = true
-							exception_list = 
+							exception_list =
 							[
 								"Cube_111",
 							]

@@ -1,37 +1,37 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
 {
-	rootNode = 
+	rootNode =
 	{
 		_class = "RootNode"
-		children = 
+		children =
 		[
 			{
 				_class = "MaterialGroupList"
-				children = 
+				children =
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						remaps = 
+						remaps =
 						[
 							{
 								from = "darksteel.vmat"
-								to = "materials/base/darksteel.vmat"
+								to = "deggassets/materials/base/darksteel.vmat"
 							},
 							{
 								from = "darkwood.vmat"
-								to = "materials/base/darkwood.vmat"
+								to = "deggassets/materials/base/darkwood.vmat"
 							},
 							{
 								from = "lightsteel.vmat"
-								to = "materials/base/lightsteel.vmat"
+								to = "deggassets/materials/base/lightsteel.vmat"
 							},
 							{
 								from = "steel.vmat"
-								to = "materials/base/steel.vmat"
+								to = "deggassets/materials/base/steel.vmat"
 							},
 							{
 								from = "lightwood.vmat"
-								to = "materials/base/lightwood.vmat"
+								to = "deggassets/materials/base/lightwood.vmat"
 							},
 						]
 						use_global_default = false
@@ -41,7 +41,7 @@
 			},
 			{
 				_class = "PhysicsShapeList"
-				children = 
+				children =
 				[
 					{
 						_class = "PhysicsShapeBox"
@@ -83,11 +83,11 @@
 			},
 			{
 				_class = "RenderMeshList"
-				children = 
+				children =
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/fantasy/items/Dagger.fbx"
+						filename = "deggassets/models/fantasy/items/Dagger.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 0.15
@@ -95,7 +95,7 @@
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
 						parent_bone = ""
-						import_filter = 
+						import_filter =
 						{
 							exclude_by_default = false
 							exception_list = [  ]
@@ -105,7 +105,7 @@
 			},
 			{
 				_class = "AttachmentList"
-				children = 
+				children =
 				[
 					{
 						_class = "Attachment"
