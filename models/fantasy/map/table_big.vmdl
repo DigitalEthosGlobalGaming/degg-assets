@@ -1,0 +1,125 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "wood.vmat"
+								to = "deggassets/materials/base/wood.vmat"
+							},
+							{
+								from = "darkwood.vmat"
+								to = "deggassets/materials/base/darkwood.vmat"
+							},
+							{
+								from = "darkmetal.vmat"
+								to = "deggassets/materials/base/darksteel.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "wood"
+						collision_tags = "solid"
+						origin = [ -1.810593, 0.625019, 31.251757 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 133.390991, 63.757065, 5.340843 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "wood"
+						collision_tags = "solid"
+						origin = [ 0.031744, -0.277494, 12.321886 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 125.779716, 2.992239, 5.2279 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "wood"
+						collision_tags = "solid"
+						origin = [ -57.71822, -0.276094, 17.986506 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 6.920113, 10.303907, 23.221882 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "wood"
+						collision_tags = "solid"
+						origin = [ 57.46183, -0.276094, 17.986506 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 5.251699, 10.303907, 23.221882 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "wood"
+						collision_tags = "solid"
+						origin = [ -57.588608, -0.23501, 3.269295 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 4.85361, 43.092415, 6.97686 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "wood"
+						collision_tags = "solid"
+						origin = [ 57.666801, -0.23501, 3.269295 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 4.816513, 43.092415, 6.97686 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "deggassets/models/fantasy/map/table_big.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.4
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"Cube_003",
+							]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

@@ -14,8 +14,8 @@
 						remaps = 
 						[
 							{
-								from = "gold.vmat"
-								to = "deggassets/materials/base/gold.vmat"
+								from = "brown.vmat"
+								to = "deggassets/materials/base/brown.vmat"
 							},
 						]
 						use_global_default = false
@@ -29,10 +29,10 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "deggassets/models/fantasy/items/chalice.fbx"
+						filename = "deggassets/models/fantasy/items/key2.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
-						import_scale = 1.0
+						import_scale = 0.5
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
@@ -42,23 +42,9 @@
 							exclude_by_default = true
 							exception_list = 
 							[
-								"Cube_023",
+								"Cube_007",
 							]
 						}
-					},
-				]
-			},
-			{
-				_class = "PhysicsShapeList"
-				children = 
-				[
-					{
-						_class = "PhysicsHullFromRender"
-						parent_bone = ""
-						surface_prop = "metal.sheet"
-						collision_tags = "solid"
-						faceMergeAngle = 5.0
-						maxHullVertices = 64
 					},
 				]
 			},

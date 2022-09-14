@@ -14,19 +14,11 @@
 						remaps = 
 						[
 							{
-								from = "darkwood.vmat"
-								to = "deggassets/materials/base/darkwood.vmat"
+								from = "darkmetal.vmat"
+								to = "deggassets/materials/base/darksteel.vmat"
 							},
 							{
-								from = "lightsteel.vmat"
-								to = "deggassets/materials/base/lightsteel.vmat"
-							},
-							{
-								from = "lightwood.vmat"
-								to = "deggassets/materials/base/lightwood.vmat"
-							},
-							{
-								from = "steel.vmat"
+								from = "metal.vmat"
 								to = "deggassets/materials/base/steel.vmat"
 							},
 						]
@@ -36,15 +28,45 @@
 				]
 			},
 			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "Trap_empty"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "deggassets/models/fantasy/map/Trap_empty.fbx"
+						import_scale = 0.5
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
 				_class = "RenderMeshList"
 				children = 
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "deggassets/models/fantasy/items/axe_small.fbx"
+						filename = "deggassets/models/fantasy/map/trap_spikes.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
-						import_scale = 1.0
+						import_scale = 0.5
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
@@ -54,7 +76,7 @@
 							exclude_by_default = true
 							exception_list = 
 							[
-								"Cylinder_033",
+								"Cube_051",
 							]
 						}
 					},
